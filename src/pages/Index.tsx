@@ -130,7 +130,7 @@ const Index = () => {
                 <SpinningLogo />
               </Canvas>
             </div>
-            <span className="text-2xl font-bold">NexusFlow</span>
+            <span className="text-2xl font-bold tracking-wider">KAIN VPN</span>
           </div>
           <ul className="hidden md:flex space-x-6">
             <li><a href="#features" className="hover:text-gray-300 transition">Возможности</a></li>
@@ -142,14 +142,14 @@ const Index = () => {
       </header>
 
       <div className="absolute top-1/3 left-1/2 transform -translate-x-1/2 -translate-y-1/2 text-center z-10 px-4">
-        <h1 className="text-4xl md:text-6xl font-bold mb-8 max-w-4xl mx-auto">
-          Умная оркестрация
+        <h1 className="text-4xl md:text-6xl font-bold mb-8 max-w-4xl mx-auto leading-tight">
+          Свобода в сети.<br />Без следов.
         </h1>
-        <h2 className="text-lg md:text-xl mb-10 text-gray-300">
-          Управляйте распределенными сервисами через единый мощный интерфейс
+        <h2 className="text-lg md:text-xl mb-10 text-gray-300 max-w-xl mx-auto">
+          Kain VPN защищает ваши данные, скрывает IP и открывает весь интернет — где бы вы ни находились
         </h2>
         <button className="bg-white text-black font-bold py-3 px-8 rounded-md hover:bg-gray-200 transition duration-300">
-          Получить ранний доступ
+          Попробовать бесплатно
         </button>
       </div>
 
@@ -160,19 +160,19 @@ const Index = () => {
       {/* Features Section */}
       <section id="features" className="absolute bottom-0 left-0 right-0 z-10 bg-gradient-to-t from-black via-black/80 to-transparent pt-32 pb-12">
         <div className="max-w-6xl mx-auto px-4">
-          <h3 className="text-2xl md:text-3xl font-bold text-center mb-8">Почему NexusFlow?</h3>
+          <h3 className="text-2xl md:text-3xl font-bold text-center mb-8">Почему Kain VPN?</h3>
           <div className="grid md:grid-cols-3 gap-6">
             <div className="bg-white/5 backdrop-blur-sm rounded-lg p-6 border border-white/10">
-              <h4 className="text-xl font-semibold mb-3">Единый центр управления</h4>
-              <p className="text-gray-400">Контролируйте все распределенные сервисы из интуитивной панели с мониторингом в реальном времени.</p>
+              <h4 className="text-xl font-semibold mb-3">Полная анонимность</h4>
+              <p className="text-gray-400">Ваш реальный IP скрыт, трафик зашифрован. Никаких логов — ни один провайдер не узнает, где вы были.</p>
             </div>
             <div className="bg-white/5 backdrop-blur-sm rounded-lg p-6 border border-white/10">
-              <h4 className="text-xl font-semibold mb-3">Умная маршрутизация</h4>
-              <p className="text-gray-400">Интеллектуальное распределение трафика обеспечивает оптимальную производительность и надежность всех узлов.</p>
+              <h4 className="text-xl font-semibold mb-3">Молниеносная скорость</h4>
+              <p className="text-gray-400">Сотни серверов по всему миру. Умный выбор маршрута обеспечивает минимальный пинг и максимальную скорость соединения.</p>
             </div>
             <div className="bg-white/5 backdrop-blur-sm rounded-lg p-6 border border-white/10">
-              <h4 className="text-xl font-semibold mb-3">Нулевой простой</h4>
-              <p className="text-gray-400">Автоматическое переключение и балансировка нагрузки поддерживают работу приложений без перебоев.</p>
+              <h4 className="text-xl font-semibold mb-3">Без ограничений</h4>
+              <p className="text-gray-400">Доступ к любым сайтам и сервисам — Instagram, YouTube, зарубежный стриминг. Блокировки больше не существует.</p>
             </div>
           </div>
         </div>
